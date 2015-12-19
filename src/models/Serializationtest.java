@@ -15,7 +15,7 @@ public class Serializationtest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String fileName ="Mineral.ser";
+		String fileName ="flourite.ser";
 		Mineral flourite = new Mineral("flourite","purple");
 		
 		//serialize this to file
