@@ -32,8 +32,8 @@ public class Serializationtest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("flourite object" + flourite);
-		System.out.println("new flourite from file" + flouriteFromFile);
+		System.out.println("flourite object::"+flourite);
+		System.out.println("new flourite from file" +flouriteFromFile);
 	}
 
 }

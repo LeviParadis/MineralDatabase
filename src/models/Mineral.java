@@ -13,7 +13,7 @@ import java.io.OutputStream;
  */
 public class Mineral implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	//private static final long serialVersionUID = 1L;
 	private String name;
 	private String colour;
 	
@@ -23,20 +23,14 @@ public class Mineral implements Serializable {
 	 * @param colour the most common colour of the mineral
 	 */
 	public Mineral (String name,String colour){
-		
+		this.setName(name);
+		this.setColour(colour);
 	}
 	
-	/**
-	 * @param args
-	 */
-	
-
-		 
-	public static void main(String[] args) {
-
-		
+	@Override
+	public String toString(){
+		return "Mineral{name=" + name + ",colour=" + colour + "}";
 	}
-
 	public String getName() {
 		return name;
 	}
