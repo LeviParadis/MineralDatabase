@@ -2,12 +2,18 @@
  * 
  */
 package models;
-
+import java.io.Serializable;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 /**
  * @author Levi Paradis
  *
  */
-public class Mineral {
+public class Mineral implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private String colour;
 	
@@ -22,9 +28,12 @@ public class Mineral {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 
+		 
+	public static void main(String[] args) {
+
+		
 	}
 
 }
